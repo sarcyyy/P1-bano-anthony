@@ -163,6 +163,10 @@
    font-weight: bold;
    
 }
+.logofiltre{
+   padding-left : 10px;
+   padding-top:10px;
+}
 
   .logofav{
   margin-left:53%;
@@ -224,7 +228,7 @@
      font-size:20px;
   }
   .colomn1{
-     box-shadow: 1px 1px #F2F2F2;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
      border-radius: 20px;
   }
 
@@ -259,13 +263,13 @@
 }
   .elemcol2{
   
-     box-shadow: 1px 1px #F2F2F2;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
      border-radius: 20px;
   }
   .ndelemcol2{
      margin-top: 30px;
   
-     box-shadow: 1px 1px #F2F2F2;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
      border-radius: 20px;
   }
   .dimact2{
@@ -384,7 +388,7 @@
   }  
   .conteneurfiltre{
      display:flex;
-    
+  
      justify-content: flex-start;
      gap:30px;
      width: 95%; 
@@ -403,43 +407,26 @@
      .elementfiltre{
         justify-content: center;
         cursor:pointer;
-        gap:25px;
-        display: flex;
-        padding-top:18px;
-     
-  
-        border: 2px solid #F2F2F2;
+        display: flex; 
+        border: 2px solid lightgrey;
+        border-left-style:none;
         border-radius: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
+
      }
      .textecercle{
-     margin-left:-16px;
+        padding:10px;
+        padding-right: 20px;
      text-decoration: none;
      color:black;
      font-size:16px;
      font-weight: bold;
 
   }
-  .logofiltre{
+ 
   
-     margin-left:20px;
-     margin-top:20px;
-    }
-    .logofiltre2{
-     margin-left:22px;
-     margin-top:20px;
-    }
-    .logofiltre3{
-     margin-left:21px;
-     margin-top:20px;
-    }
     .cercle{
-     margin-left:-35px;
+       width: 40px;
      border-radius: 50px;
-     height: 58px;
-     width: 58px;
-     margin-top: -19px;
      background-color:lightblue;
     }
   .elementfiltre:hover{
@@ -615,6 +602,7 @@ margin-bottom:5px;
   
   }
   .conteneurfiltre{
+   padding-right: 10px;
      display:flex;
      gap:5px;
      width: 100%;
