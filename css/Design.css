@@ -163,8 +163,20 @@
    font-weight: bold;
    
 }
-.logofiltre{
+.logofiltre1{
    padding-left : 10px;
+   padding-top:11px;
+}
+.logofiltre2{
+   padding-left : 13px;
+   padding-top:11px;
+}
+.logofiltre3{
+   padding-left : 11px;
+   padding-top:11px;
+}
+.logofiltre4{
+   padding-left : 11px;
    padding-top:10px;
 }
 
@@ -313,7 +325,7 @@
      
      }
      .couleurbleu{
-     color: blue;
+     color: #0065FC;
      }
   .elementfav{
    margin-bottom: 20px;
@@ -427,10 +439,10 @@
     .cercle{
        width: 40px;
      border-radius: 50px;
-     background-color:lightblue;
+     background-color:#DEEBFF;
     }
   .elementfiltre:hover{
-     background-color: lightblue;
+     background-color: #DEEBFF;
   }
   .elementfiltre:first-child{
      pointer-events: none;
@@ -444,7 +456,7 @@
      text-decoration: none;
      background-color: #0065FC;
      color:white;
-     border-width: 0.8em;
+     border-width: 14px;
      border-style:solid;
      border-color:#0065FC;
      border-radius: 0 1em 1em 0;
@@ -506,11 +518,11 @@
      }
     
      .localmob{
-        color:black;
+        color:white;
         text-decoration: none;
         display:inline-block;
           
-      background-color: lightblue;
+      background-color: #0065FC;
       
       padding-left:16px;
       padding-top:17px;
@@ -536,6 +548,10 @@
    width:100%;
 
 }
+.colomn1, .elemcol2, .ndelemcol2 {
+   box-shadow: rgb(0 0 0 / 15%) 0px 5px 15px
+}
+
 
 .dimact1,.dimact2{
    height: 250px;
@@ -580,7 +596,7 @@
     
   }
   .elementheberg{
-   box-shadow: 1px 1px #F2F2F2;
+   box-shadow: rgba(0, 0, 0, 0.10) 0px 5px 15px;
      width:100%;
   
   }
