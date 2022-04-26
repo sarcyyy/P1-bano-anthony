@@ -71,8 +71,10 @@
 
   }
   .impr2{
+     font-weight: normal;
      padding-top:10px;
-     font-style: italic;} 
+     font-style: italic;
+   } 
     .impr,.impr2{ 
      display: flex;
      flex-wrap: wrap;
@@ -669,6 +671,9 @@ margin-bottom:5px;
   }
   .texterang{
      margin-left: 25px;
+  }
+  .impr,.impr2{
+     justify-content: center;
   }
   .impr{
      margin-top:5%;
