@@ -244,10 +244,11 @@
   .colomn1{
    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
      border-radius: 20px;
+     margin-bottom:30px;
   }
 
   .dimact1{
-     height: 490px;
+     height: 470px;
      object-fit:cover;
      border-radius: 20px 20px 0 0 ;
   }
@@ -286,15 +287,24 @@
      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
      border-radius: 20px;
   }
+  .ndelemcol2petit{
+   margin-top: 40px;
+
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   border-radius: 20px;
+}
   .dimact2{
-     height: 250px;
+     height: 200px;
      border-radius: 20px 20px 0 0;
      object-fit: cover;
-     width: 100%;
-
-  
-  
+     width: 100%; 
   } 
+  .dimact2bis{
+   height: 250px;
+   border-radius: 20px 20px 0 0;
+   object-fit: cover;
+   width: 100%; 
+} 
   .dimact3{
    border-radius: 20px 20px 0 0;
    object-fit: cover;
@@ -687,8 +697,8 @@ margin-bottom:5px;
      border-bottom: 2px solid lightgrey;
      width:50%;
      padding-bottom:10px;
-    
-  }
+
+     }
   .decocliq:hover{
      border-color:#0065FC;
   }
