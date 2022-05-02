@@ -409,7 +409,7 @@
      }
   .textegrandblock{
      position:relative;
-     width:50%;
+     width:100%;
     
   } 
   .divtxt2{
@@ -513,7 +513,9 @@
 
   }
   @media(max-width:992px){
-  
+  .elementfav{
+   box-shadow: rgb(0 0 0 / 10%) 0px 5px 15px;
+  }
      .largeurinfo{
         font-size:17px;
      }
@@ -557,7 +559,7 @@
      }
     
      .dimimg1{
-        height: auto;
+        height: 200px;
      }
      .brecherche{
         width:180px;
