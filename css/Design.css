@@ -354,8 +354,7 @@
   .elementfav{
    margin-bottom: 20px;
      background-color: white;
-     width: 80%;
- 
+     width: 90%;
      border-radius: 30px;
   }
   .logopop{
@@ -364,7 +363,7 @@
   }
   .just21{
   
-     margin-bottom:3%;
+     padding-bottom:20px;
      margin-left:5%;
      font-weight: bold;
      font-size:20px;
@@ -409,7 +408,7 @@
      }
   .textegrandblock{
      position:relative;
-     width:100%;
+     width:50%;
     
   } 
   .divtxt2{
@@ -515,6 +514,7 @@
   @media(max-width:992px){
   .elementfav{
    box-shadow: rgb(0 0 0 / 10%) 0px 5px 15px;
+
   }
      .largeurinfo{
         font-size:17px;
@@ -526,9 +526,7 @@
         width:100%;
         margin-bottom:10px;
      }
-     .texteheberg{
-        height: auto;
-     }
+  
     .dimimg{
        height:220px;
     }
@@ -558,9 +556,7 @@
       border-radius: 10px;
      }
     
-     .dimimg1{
-        height: 200px;
-     }
+ 
      .brecherche{
         width:180px;
      }
