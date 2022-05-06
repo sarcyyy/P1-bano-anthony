@@ -111,7 +111,7 @@
      display:flex;
 
      flex-wrap:wrap;
-     width: 55%;
+     width: 60%;
      background-color: #F2F2F2;
      border-radius: 20px;
      margin-left:2%;
@@ -131,6 +131,7 @@
      color:black;
   }
   .elementheberg{
+     
    margin-bottom: 20px;
 
 
@@ -139,6 +140,10 @@
      width: 30%; 
      border-radius: 30px;
   
+  }
+  .elementhebergdeco{
+     color:black;
+     text-decoration: none;
   }
   .dimimg{
   
@@ -225,6 +230,7 @@
   .activitésmars{
      display: flex;
      margin:25px;
+     margin-left:40px;
      justify-content: space-between;
  
   }
@@ -233,7 +239,7 @@
   
   }
   .grandacti{
- 
+    width:97%;
 
      padding-top:2%;
   }
@@ -258,6 +264,7 @@
    display:flex;
      margin:20px;
      gap:8px;
+     margin-left:5px;
      padding-left:35px;
      font-style:italic;
   }
@@ -295,17 +302,12 @@
    border-radius: 20px;
 }
   .dimact2{
-     height: 200px;
+     height: 235px;
      border-radius: 20px 20px 0 0;
      object-fit: cover;
      width: 100%; 
   } 
-  .dimact2bis{
-   height: 250px;
-   border-radius: 20px 20px 0 0;
-   object-fit: cover;
-   width: 100%; 
-} 
+
   .dimact3{
    border-radius: 20px 20px 0 0;
    object-fit: cover;
@@ -316,7 +318,7 @@
 
 } 
 .dimact31{
-   height:130px;
+   height:150px;
       border-radius: 20px 20px 0 0;
       object-fit: cover;
       width: 100%;
@@ -427,7 +429,7 @@
   }  
   .conteneurfiltre{
      display:flex;
-  
+     margin-left:10px;
      justify-content: flex-start;
      gap:30px;
      width: 95%; 
@@ -563,6 +565,7 @@
      }
      .nblogement{
         margin:25px;
+      
      }
 .activitésmars{
    flex-wrap:wrap;
@@ -645,7 +648,7 @@ margin-bottom:5px;
    padding-right: 10px;
      display:flex;
      gap:5px;
-     width: 100%;
+  
     
      flex-wrap:wrap;
   
