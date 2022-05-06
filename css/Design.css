@@ -228,9 +228,10 @@
      font-size:19px;
   }
   .activitésmars{
+     width:94.3%;
      display: flex;
-     margin:25px;
      margin-left:40px;
+     padding-top:20px;
      justify-content: space-between;
  
   }
@@ -239,7 +240,7 @@
   
   }
   .grandacti{
-    width:98.8%;
+    
 
      padding-top:2%;
   }
