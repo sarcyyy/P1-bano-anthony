@@ -228,10 +228,8 @@
      font-size:19px;
   }
   .activitésmars{
-     width:94.3%;
      display: flex;
-     margin-left:40px;
-     padding-top:20px;
+   
      justify-content: space-between;
  
   }
@@ -240,11 +238,13 @@
   
   }
   .grandacti{
-    
 
+     padding-left:35px;
+     width:96%;
      padding-top:2%;
   }
   .grandtitreacti{
+     margin-bottom:20px;
      margin-left:3%;
      font-weight: bold;
      font-size:25px;
@@ -430,7 +430,7 @@
   }  
   .conteneurfiltre{
      display:flex;
-  
+     margin-left:10px;
      justify-content: flex-start;
      gap:30px;
      width: 95%; 
@@ -516,6 +516,11 @@
 
   }
   @media(max-width:992px){
+     .grandacti{
+        margin:30px;
+        padding-left:0;
+        width:auto;
+     }
   .elementfav{
    box-shadow: rgb(0 0 0 / 10%) 0px 5px 15px;
 
